@@ -1,11 +1,11 @@
 <html>
   <head>
-    <title>Flatacalories</title>
+    <title>Flatacuties</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
     <div class="logo">
-      <img src="assets/logo.png" />
+      <h1>Flatacuties</h1>
     </div>
 
     <div id="character-bar">
@@ -18,14 +18,31 @@
         <img
           id="image"
           src="assets/dummy.gif"
+          alt="Character's Name"
         /><!-- display character image here -->
-        <h4>Total Calories: <span id="calories">Character's Calories</span></h4>
-        <form id="calories-form">
-          <input type="text" placeholder="Enter Calories" id="calories-input" />
-          <input type="submit" value="Add Calories" />
+        <h4>Total Votes: <span id="vote-count">Character's Votes</span></h4>
+        <form id="votes-form">
+          <input type="text" placeholder="Enter Votes" id="votes" name="votes" />
+          <input type="submit" value="Add Votes" />
         </form>
-        <button id="reset-btn">Reset Calories</button>
+        <button id="reset-btn">Reset Votes</button>
       </div>
+
+      <!-- Bonus only! Uncomment the elements below when you are ready to work on the bonus deliverables -->
+      <!-- 
+        <h4>Add New Character</h4>
+        <form id="character-form">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div>
+            <label for="image-url">Image URL</label>
+            <input type="text" id="image-url" name="image-url" />
+          </div>
+          <input type="submit" value="Add Character" />
+        </form> 
+      -->
     </div>
     <script src="src/index.js"></script>
   </body>
