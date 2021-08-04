@@ -1,6 +1,17 @@
+html {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 .logo{
   text-align: center;
   background-color: rgb(49, 109, 179);
+  color: white;
+  padding: 0.5em;
 }
 
 #character-bar {
@@ -28,12 +39,11 @@
   height: 550px;
   padding: 30px;
   font-size: 24px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
   border: dotted;
   text-align: center;
 }
 
-input[type="submit"], button{
+input[type="submit"], button {
   background-color: rgb(49, 109, 179);
   color: white;
   font-size: 18px;
@@ -41,8 +51,7 @@ input[type="submit"], button{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-input[type="text"]{
-  height: 4vh;
+input[type="text"] {
   font-size: 3vh;
 }
 
